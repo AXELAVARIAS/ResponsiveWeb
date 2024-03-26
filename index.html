@@ -9,35 +9,62 @@
 <body>
   <div class="container">
     <img src="logoCC.png" alt="Cordilleran Cuisine Logo" class="logo">
-    <h1>Cordilleran Cuisine Feedback</h1>
+    <h1>Customer's Feedback</h1>
     <form id="survey-form">
       <div class="question">
-        Name
+        <p>Name</p>
         <input type="text" id="name" name="name" required placeholder="Type your name">
       </div>
       <div class="question">
-        Email
+        <p>Email</p>
         <input type="email" id="email" name="email" placeholder="Type your e-mail">
       </div>
       <div class="question">
-        Which of our dishes did you try? 
+        <p>Phone Number</p>
+        <input type="text" id="Phonenumber" name="Phonenumber" required placeholder="Type your phone number">
+      </div>
+      <div class="question">
+        <p>Which of our dishes did you try? </p>
         <select id="dish" name="dish" required>
-          <option value="">Piliin ang putahe (Select Dish)</option>
+          <option value="">Select Dish</option>
           <option value="pinuneg">Pinuneg</option>
           <option value="pinikpikan">Pinikpikan</option>
           <option value="tapey">Tapey(Rice Wine)</option>
+          <option value="tapey">All of the above</option>
+         
+        </select>
+      </div>
+      
+      <div class="question">
+        <p>Are you satisfied with the taste, and why?</p>
+        <textarea id="feedback" name="feedback" rows="5" placeholder="Type your favorite"></textarea>
+      </div>
+      <div class="question">
+        <p>Do you have any suggestions to make our dishes even better?</p>
+        <textarea id="suggestions" name="suggestions" rows="5" placeholder="Type your suggestions"></textarea> 
+      </div>
+      <div class="question">
+        <p>Are you satisfied with our services?</p>
+        <select id="satisfaction" name="satisfaction" required>
+          <option value="Please Select">Please Select</option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
          
         </select>
       </div>
       <div class="question">
-        Which of our dishes is your favorite, and why?
-        <textarea id="feedback" name="feedback" rows="5" placeholder="Type your favorite"></textarea>
-      </div>
-      <div class="question">
-        Do you have any suggestions to make our dishes even better?
-        <textarea id="suggestions" name="suggestions" rows="5" placeholder="Type your suggestions"></textarea> 
+        <p>How did you hear about us?</p>
+        <select id="satisfaction" name="satisfaction" required>
+          <option value="Please Select">Please Select</option>
+          <option value="Friends">Friends</option>
+          <option value="Family">Family</option>
+          <option value="Social media platforms">Social media platforms</option>
+          <option value="While Travelling">While Travelling </option>
+
+        </select>
       </div>
       <center><button type="submit">Submit</button></center>
+      
     </form>
   </div>
 </body>
