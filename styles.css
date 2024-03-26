@@ -26,9 +26,9 @@ body {
 h1 {
   text-align: center;
   margin-bottom: 20px;
-  color: #333;  /* Changed color to dark gray for better legibility */
+  color: #333;  
   font-weight: bold;
-  font-family: 'Open Sans', sans-serif;  /* Added a fallback font */
+  font-family: 'Open Sans', sans-serif;  
 
 }
 
@@ -71,9 +71,9 @@ button:hover {
   background-color: #a72e23;
 }
 .mountain-background {
-  background-image: url("[path/to/your/mountain.jpg]");  /* Replace with your image path */
-  background-size: cover;  /* Optional: Adjust image size to fit the container */
-  background-position: center;  /* Optional: Adjust image position */
+  background-image: url("[path/to/your/mountain.jpg]");  
+  background-size: cover;  
+  background-position: center;  
 }
 
 @media (max-width: 768px) {
