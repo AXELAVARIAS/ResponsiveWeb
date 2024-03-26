@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cordilleran Cuisine Feedback</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <img src="logoCC.png" alt="Cordilleran Cuisine Logo" class="logo">
+    <h1>Cordilleran Cuisine Feedback</h1>
+    <form id="survey-form">
+      <div class="question">
+        Name
+        <input type="text" id="name" name="name" required placeholder="Type your name">
+      </div>
+      <div class="question">
+        Email
+        <input type="email" id="email" name="email" placeholder="Type your e-mail">
+      </div>
+      <div class="question">
+        Which of our dishes did you try? 
+        <select id="dish" name="dish" required>
+          <option value="">Piliin ang putahe (Select Dish)</option>
+          <option value="pinuneg">Pinuneg</option>
+          <option value="pinikpikan">Pinikpikan</option>
+          <option value="tapey">Tapey(Rice Wine)</option>
+         
+        </select>
+      </div>
+      <div class="question">
+        Which of our dishes is your favorite, and why?
+        <textarea id="feedback" name="feedback" rows="5" placeholder="Type your favorite"></textarea>
+      </div>
+      <div class="question">
+        Do you have any suggestions to make our dishes even better?
+        <textarea id="suggestions" name="suggestions" rows="5" placeholder="Type your suggestions"></textarea> 
+      </div>
+      <center><button type="submit">Submit</button></center>
+    </form>
+  </div>
+</body>
+</html>
